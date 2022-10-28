@@ -3,27 +3,28 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ejercicio02;
+package ejercicio05;
 
 /**
  *
- * @author reroes
+ * @author UTPL
  */
-public class Ejercicio02 {
+public class Ejercicio05 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // Resolución del problema
-        int var1 = 10;
-        int var2 = 2;
-        
-        int resultado = (int) (Math.pow(var1, var2) +10) ;
+        // TODO code application logic here
+        int num1 = 2;
+        int num2 = 12;
+        int num3 = 1;
+        int num4 = 3;
+        double resultado;
+
+        resultado = (Math.pow(num1, num1)+ num2 + num3)/num4 ;
         System.out.println(resultado);
+
     }
-    
-    
-    
-    
+
 }

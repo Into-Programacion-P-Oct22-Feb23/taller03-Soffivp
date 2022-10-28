@@ -22,7 +22,8 @@ public class Ejercicio01 {
         int variable3 = 4;
         int variable4 = 3;
         int variable5 = 5;
-        int variable6 = 80;
+        //numero incorrecto cambio 80 por 81
+        int variable6 = 81;
 
         System.out.println("-------Solución a problema------------------");
         // Math.sqrt me permite obtener la raíz cuadrada de un número

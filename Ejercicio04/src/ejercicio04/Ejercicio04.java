@@ -3,30 +3,30 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ejercicio03;
+package ejercicio04;
 
 /**
  *
- * @author reroes
+ * @author UTPL
  */
-public class Ejercicio03 {
+public class Ejercicio04 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
-
-        double num1 = 10;
-        double num2 = 2;
-        double num3 = 16;
-        double num4 = 20;
-        double num5 = 1;
-        double num6 = 11;
+        int num1 = 20 ;
+        int num2 = 1;
+        int num3 = 3;
+        int num4 = 2;
         double resultado ;
+        boolean res;
         
-        resultado = Math.pow(num1, num2) + Math.sqrt(num3) + (num4 / (num5+num6)) ;
-        System.out.println(resultado);
+        resultado = ((num1/num2+num3)+ num4);
+        res = resultado >= num3;
+        System.out.println(res);
+        
 
     }
 
